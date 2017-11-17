@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="Nopackage2(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.Rbs.Tests.BookABranchAppointmentPageTest">
+        <methods>
+          <include name="enterPostCodeAndFindBranchTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Rbs.Tests.BookABranchAppointmentPageTest -->
+    </classes>
+  </test> <!-- Nopackage2(failed) -->
+  <test name="Nopackage1(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.Rbs.Tests.BookABranchAppointmentPageTest">
+        <methods>
+          <include name="enterPostCodeAndFindBranchTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Rbs.Tests.BookABranchAppointmentPageTest -->
+    </classes>
+  </test> <!-- Nopackage1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.Rbs.Tests.BookABranchAppointmentPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Rbs.Tests.BookABranchAppointmentPageTest -->
+      <class name="com.Rbs.Tests.PersonalProductPageTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Rbs.Tests.PersonalProductPageTest -->
+      <class name="com.Rbs.Tests.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Rbs.Tests.HomePageTest -->
+      <class name="com.Rbs.Tests.OurRewardAccountPageTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Rbs.Tests.OurRewardAccountPageTest -->
+      <class name="com.Rbs.Tests.AnEveryDayBankAccountPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="clickOnOurRewardAccountLinkTest"/>
+        </methods>
+      </class> <!-- com.Rbs.Tests.AnEveryDayBankAccountPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
